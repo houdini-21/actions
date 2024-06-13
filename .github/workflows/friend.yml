@@ -1,0 +1,13 @@
+name: Hello friend!
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  hello_friend:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Hello friend!
+          run: echo "Hello friend!"
